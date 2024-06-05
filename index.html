@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DHL Tracking</title>
+</head>
+<body>
+  <h1>Track Your Shipment</h1>
+  <form id="trackingForm">
+    <label for="trackingNumber">Enter Tracking Number:</label>
+    <input type="text" id="trackingNumber" name="trackingNumber" required>
+    <button type="submit">Track</button>
+  </form>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+  <script src="server.js"></script>
+  <script type="module" src=".env"></script>
+  
+</body>
+</html>
